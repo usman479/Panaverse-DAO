@@ -7,10 +7,6 @@
   min-height: 100vh;
 }
 
-.h1 {
-  font-size: 5rem;
-}
-
 .description {
   display: inherit;
   justify-content: inherit;
