@@ -1,5 +1,6 @@
 import './globals.css';
 import PanaNav from '@/components/PanaNav'
+import Footer from '@/components/Footer';
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
@@ -12,6 +13,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
       <body>
         <PanaNav/>
         {children}
+        <Footer/>
       </body>
     </html>
   )

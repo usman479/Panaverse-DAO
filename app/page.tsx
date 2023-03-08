@@ -16,6 +16,7 @@ import network from "../public/images/network.webp"
 import outcomePoster from "../public/images/outcome-poster.webp"
 import CourseIcon from '@/components/CourseIcon'
 import { useState } from 'react';
+import panaLogo from "../public/images/panaverse-logo.webp"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -96,7 +97,7 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
+      <Hero />  
       <EnrollSec />
       <div className='px-4 mt-10'>
         <h2 className='font-bold text-5xl'>Specialized Tracks:</h2>
@@ -178,6 +179,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
     </>
   )
 }
